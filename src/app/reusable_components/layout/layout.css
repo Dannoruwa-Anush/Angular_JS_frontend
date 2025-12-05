@@ -1,0 +1,18 @@
+/* Make the page fill the screen */
+:host {
+  display: block;
+  height: 100vh;
+}
+
+/* Create vertical layout */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Make content grow and push footer to bottom */
+.content {
+  flex: 1;
+  padding: 20px;
+}

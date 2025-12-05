@@ -1,0 +1,8 @@
+.toolbar-left, .toolbar-right {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  margin-right: 16px;
+}
